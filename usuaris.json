@@ -1,0 +1,25 @@
+{
+    "Usuaris": [
+        {
+            "id": 101,
+            "nom": "Usuari 1",
+            "cognom": "Cognom 1",
+            "email": "filia@gmail.com",
+            "Tipus": "Admin"
+        },
+        {
+            "id": 202,
+            "nom": "Usuari 2",
+            "cognom": "Cognom 2",
+            "email": "monge@hotmail.es",
+            "Tipus": "Client"
+        },
+        { 
+            "id": 303,
+            "nom": "Omar",
+            "cognom": "De",
+            "email": "Pingilin@kk.com",
+            "Tipus": "Admin"
+        }
+    ]
+}

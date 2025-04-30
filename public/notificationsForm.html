@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Notificació</title>
+    <link rel="stylesheet" type="text/css" href="formularios.css">
+</head>
+<body>
+
+<header>
+    <h1>Editar Notificació</h1>
+    <h2><a href="/notifications">Volver a la lista de notificaciones</a></h2>
+</header>
+
+<main>
+    <section>
+        <form id="form-notificacions">
+            <input type="hidden" id="notificacion-id">
+
+            <label for="notificacion-title">Titulo:</label>
+            <input type="text" id="notificacion-title" required>
+
+            <label for="notificacion-description">Descripción:</label>
+            <input type="text" id="notificacion-description" required>
+
+            <label for="notificacion-date">Data:</label>
+            <input type="date" id="notificacion-date" required>
+
+            <button type="submit">Guardar</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
